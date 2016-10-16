@@ -12,7 +12,6 @@ Add the hover/active effects to your menu items
 html{
     font-size: 16px;
     line-height: 1.6;
-    /* ADD the Google sans-serif font to this font stack */
     font-family: 'helvetica', monospace,'lato' sans-serif;
 }
 html, body{
@@ -49,39 +48,40 @@ header{
     background-color: #EC4916;
     color: #485992;
 }
-.menu-h{
+.menu-v{
     width: 100%;
 }
-    .menu-h li{
+    .menu-v li{
       
         list-style: none;
     }
 
-        .menu-h a,
-        .menu-h a:link,
-        .menu-h a:visited{
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
             
         }
-        .menu-h a:hover
-        .menu-h a:active{
+        .menu-v a:hover
+        .menu-v a:active{
+            
        
         }
-.menu-v{
+.menu-h{
     width: 20%;
     float:left;
     
 }
-    .menu-v li{
+    .menu-h li{
      
         list-style: none;
     }
-        .menu-v a,
-        .menu-v a:link,
-        .menu-v a:visited{
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
          
         }
-        .menu-v a:hover,
-        .menu-v a:active{
+        .menu-h a:hover,
+        .menu-h a:active{
             
         }
 
